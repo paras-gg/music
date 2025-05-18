@@ -3,4 +3,3 @@ if(!window.matchMedia("(hover:hover)").matches){
         window.open("pagecari.html", "_blank")
     })
 }
-print("Halo, dunia!")

@@ -121,27 +121,27 @@ let dpy3 = [
 let dpy4 = ""
 let allimg = document.querySelectorAll("#fy1, #fy2, #fy3, #fy4, #fy5, #fy6, #fy7, #fy8, #fy9, #fy10, #fy11, #fy12, #fy13, #fy14, #fy15, #fy16, #fy17, #fy18, #fy19, #fy20");
 let img1 = [
-    "/fotolagu/foto1py1.jpg", "/fotolagu/foto2py1.jpg", "/fotolagu/foto3py1.jpg", "/fotolagu/foto4py1.jpg", 
-    "/fotolagu/foto5py1.jpg", "/fotolagu/foto6py1.jpg", "/fotolagu/foto7py1.jpg", "/fotolagu/foto8py1.jpg", 
-    "/fotolagu/foto9py1.jpg", "/fotolagu/foto10py1.jpg", "/fotolagu/foto11py1.jpg", "/fotolagu/foto12py1.jpg", 
-    "/fotolagu/foto13py1.jpg", "/fotolagu/foto14py1.jpg", "/fotolagu/foto15py1.jpg", "/fotolagu/foto16py1.jpg", 
-    "/fotolagu/foto17py1.jpg", "/fotolagu/foto18py1.jpg", "/fotolagu/foto19py1.jpg", "/fotolagu/foto20py1.jpg"
+    "./fotolagu/foto1py1.jpg", "./fotolagu/foto2py1.jpg", "./fotolagu/foto3py1.jpg", "./fotolagu/foto4py1.jpg", 
+    "./fotolagu/foto5py1.jpg", "./fotolagu/foto6py1.jpg", "./fotolagu/foto7py1.jpg", "./fotolagu/foto8py1.jpg", 
+    "./fotolagu/foto9py1.jpg", "./fotolagu/foto10py1.jpg", "./fotolagu/foto11py1.jpg", "./fotolagu/foto12py1.jpg", 
+    "./fotolagu/foto13py1.jpg", "./fotolagu/foto14py1.jpg", "./fotolagu/foto15py1.jpg", "./fotolagu/foto16py1.jpg", 
+    "./fotolagu/foto17py1.jpg", "./fotolagu/foto18py1.jpg", "./fotolagu/foto19py1.jpg", "./fotolagu/foto20py1.jpg"
 ];
 let img2 = [
-    "/fotolagu/foto1py2.jpg", "/fotolagu/foto2py2.jpg", "/fotolagu/foto3py2.jpg", "/fotolagu/foto4py2.jpg", 
-    "/fotolagu/foto5py2.jpg", "/fotolagu/foto6py2.jpg", "/fotolagu/foto7py2.jpg", "/fotolagu/foto8py2.jpg", 
-    "/fotolagu/foto9py2.jpg", "/fotolagu/foto10py2.jpg", "/fotolagu/foto11py2.jpg", "/fotolagu/foto12py2.jpg", 
-    "/fotolagu/foto13py2.jpg", "/fotolagu/foto14py2.jpg", "/fotolagu/foto15py2.jpg", "/fotolagu/foto16py2.jpg", 
-    "/fotolagu/foto17py2.jpg", "/fotolagu/foto18py2.jpg", "/fotolagu/foto19py2.jpg", "/fotolagu/foto20py2.jpg"
+    "./fotolagu/foto1py2.jpg", "./fotolagu/foto2py2.jpg", "./fotolagu/foto3py2.jpg", "./fotolagu/foto4py2.jpg", 
+    "./fotolagu/foto5py2.jpg", "./fotolagu/foto6py2.jpg", "./fotolagu/foto7py2.jpg", "./fotolagu/foto8py2.jpg", 
+    "./fotolagu/foto9py2.jpg", "./fotolagu/foto10py2.jpg", "./fotolagu/foto11py2.jpg", "./fotolagu/foto12py2.jpg", 
+    "./fotolagu/foto13py2.jpg", "./fotolagu/foto14py2.jpg", "./fotolagu/foto15py2.jpg", "./fotolagu/foto16py2.jpg", 
+    "./fotolagu/foto17py2.jpg", "./fotolagu/foto18py2.jpg", "./fotolagu/foto19py2.jpg", "./fotolagu/foto20py2.jpg"
 ];
 let img3 = [
-    "/fotolagu/foto1py3.jpg", "/fotolagu/foto2py3.jpg", "/fotolagu/foto3py3.jpg", "/fotolagu/foto4py3.jpg", 
-    "/fotolagu/foto5py3.jpg", "/fotolagu/foto6py3.jpg", "/fotolagu/foto7py3.jpg", "/fotolagu/foto8py3.jpg", 
-    "/fotolagu/foto9py3.jpg", "/fotolagu/foto10py3.jpg", "/fotolagu/foto11py3.jpg", "/fotolagu/foto12py3.jpg", 
-    "/fotolagu/foto13py3.jpg", "/fotolagu/foto14py3.jpg", "/fotolagu/foto15py3.jpg", "/fotolagu/foto16py3.jpg", 
-    "/fotolagu/foto17py3.jpg", "/fotolagu/foto18py3.jpg", "/fotolagu/foto19py3.jpg", "/fotolagu/foto20py3.jpg"
+    "./fotolagu/foto1py3.jpg", "./fotolagu/foto2py3.jpg", "./fotolagu/foto3py3.jpg", "./fotolagu/foto4py3.jpg", 
+    "./fotolagu/foto5py3.jpg", "./fotolagu/foto6py3.jpg", "./fotolagu/foto7py3.jpg", "./fotolagu/foto8py3.jpg", 
+    "./fotolagu/foto9py3.jpg", "./fotolagu/foto10py3.jpg", "./fotolagu/foto11py3.jpg", "./fotolagu/foto12py3.jpg", 
+    "./fotolagu/foto13py3.jpg", "./fotolagu/foto14py3.jpg", "./fotolagu/foto15py3.jpg", "./fotolagu/foto16py3.jpg", 
+    "./fotolagu/foto17py3.jpg", "./fotolagu/foto18py3.jpg", "./fotolagu/foto19py3.jpg", "./fotolagu/foto20py3.jpg"
 ];
-let img4 = "/fotolagu/fotopy4.jpg"
+let img4 = "./fotolagu/fotopy4.jpg"
 function playlist1() {
     if (logicpy === 0) {
         document.getElementsByClassName('hilangkan1')[0].classList.add('hilangkecil')
@@ -185,7 +185,7 @@ function playlist1() {
         document.getElementsByClassName('bannerpy1')[0].classList.add('ada')
         document.getElementsByClassName('pausepy')[0].classList.add('ada')
         document.getElementsByClassName('tengahcrop')[0].classList.add('ada')
-        document.querySelector(".bannerpy1").style.setProperty("background-image", "url('/fotoplaylist/foto1.jpg')",);
+        document.querySelector(".bannerpy1").style.setProperty("background-image", "url('./fotoplaylist/foto1.jpg')",);
         setTimeout(() => {
             document.getElementsByClassName('bannerpy1')[0].classList.add('munculbesar')
             document.getElementsByClassName('pausepy')[0].classList.add('munculbesar')
@@ -223,7 +223,7 @@ function playlist1() {
         }, 400);
     }
     if (logicpy !== 1 && logicpy !== 0) {
-        document.querySelector(".bannerpy1").style.setProperty("background-image", "url('/fotoplaylist/foto1.jpg')",);
+        document.querySelector(".bannerpy1").style.setProperty("background-image", "url('./fotoplaylist/foto1.jpg')",);
         document.getElementsByClassName('pausepy')[0].classList.add('munculbesar')
         for (let g = 0; g < 20; g++) {
             lgall[g].style.setProperty("opacity", "0", "important")
@@ -285,7 +285,7 @@ function playlist3() {
         document.getElementsByClassName('bannerpy1')[0].classList.add('ada')
         document.getElementsByClassName('pausepy')[2].classList.add('ada')
         document.getElementsByClassName('tengahcrop')[0].classList.add('ada')
-        document.querySelector(".bannerpy1").style.setProperty("background-image", "url('/fotoplaylist/foto3.jpg')",);
+        document.querySelector(".bannerpy1").style.setProperty("background-image", "url('./fotoplaylist/foto3.jpg')",);
         setTimeout(() => {
             document.getElementsByClassName('bannerpy1')[0].classList.add('munculbesar')
             document.getElementsByClassName('pausepy')[2].classList.add('munculbesar')
@@ -323,7 +323,7 @@ function playlist3() {
         }, 400);
     }
     if (logicpy !== 2 && logicpy !== 0) {
-        document.querySelector(".bannerpy1").style.setProperty("background-image", "url('/fotoplaylist/foto3.jpg')",);
+        document.querySelector(".bannerpy1").style.setProperty("background-image", "url('./fotoplaylist/foto3.jpg')",);
         document.getElementsByClassName('pausepy')[2].classList.add('munculbesar')
         for (let g = 0; g < 20; g++) {
             lgall[g].style.setProperty("opacity", "0", "important")
@@ -384,7 +384,7 @@ function playlist2() {
         document.getElementsByClassName('bannerpy1')[0].classList.add('ada')
         document.getElementsByClassName('pausepy')[1].classList.add('ada')
         document.getElementsByClassName('tengahcrop')[0].classList.add('ada')
-        document.querySelector(".bannerpy1").style.setProperty("background-image", "url('/fotoplaylist/foto2.jpg')",);
+        document.querySelector(".bannerpy1").style.setProperty("background-image", "url('./fotoplaylist/foto2.jpg')",);
         setTimeout(() => {
             document.getElementsByClassName('bannerpy1')[0].classList.add('munculbesar')
             document.getElementsByClassName('pausepy')[1].classList.add('munculbesar')
@@ -422,7 +422,7 @@ function playlist2() {
         }, 400);
     }
     if (logicpy !== 3 && logicpy !== 0) {
-        document.querySelector(".bannerpy1").style.setProperty("background-image", "url('/fotoplaylist/foto2.jpg')",);
+        document.querySelector(".bannerpy1").style.setProperty("background-image", "url('./fotoplaylist/foto2.jpg')",);
         document.getElementsByClassName('pausepy')[1].classList.add('munculbesar')
         for (let g = 0; g < 20; g++) {
             lgall[g].style.setProperty("opacity", "0", "important")
@@ -483,7 +483,7 @@ function playlist4() {
         document.getElementsByClassName('bannerpy1')[0].classList.add('ada')
         document.getElementsByClassName('pausepy')[3].classList.add('ada')
         document.getElementsByClassName('tengahcrop')[0].classList.add('ada')
-        document.querySelector(".bannerpy1").style.setProperty("background-image", "url('/fotoplaylist/foto4.jpg')",);
+        document.querySelector(".bannerpy1").style.setProperty("background-image", "url('./fotoplaylist/foto4.jpg')",);
         setTimeout(() => {
             document.getElementsByClassName('bannerpy1')[0].classList.add('munculbesar')
             document.getElementsByClassName('pausepy')[3].classList.add('munculbesar')
@@ -521,7 +521,7 @@ function playlist4() {
         }, 400);
     }
     if (logicpy !== 4 && logicpy !== 0) {
-        document.querySelector(".bannerpy1").style.setProperty("background-image", "url('/fotoplaylist/foto4.jpg')",);
+        document.querySelector(".bannerpy1").style.setProperty("background-image", "url('./fotoplaylist/foto4.jpg')",);
         document.getElementsByClassName('pausepy')[3].classList.add('munculbesar')
         for (let g = 0; g < 20; g++) {
             lgall[g].style.setProperty("opacity", "0", "important")

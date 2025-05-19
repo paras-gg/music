@@ -95,26 +95,26 @@ function jalankanaudio() {
             kondisiaudio = true
             audiotersimpan = audio
             audio.pause()
-            document.getElementsByClassName('gambartombolpause')[0].src = 'imgtombol/pause.png';
-            pp2.src = 'imgtombol/pause.png';
+            document.getElementsByClassName('gambartombolpause')[0].src = './imgtombol/pause.png';
+            pp2.src = './imgtombol/pause.png';
             semuaaudio1.forEach(a => {
                 if (a.play) {
-                    document.getElementsByClassName('pausepy')[0].src = 'imgtombol/pausewhite.png';
+                    document.getElementsByClassName('pausepy')[0].src = './imgtombol/pausewhite.png';
                 }
             })
             semuaaudio2.forEach(a => {
                 if (a.play) {
-                    document.getElementsByClassName('pausepy')[1].src = 'imgtombol/pausewhite.png';
+                    document.getElementsByClassName('pausepy')[1].src = './imgtombol/pausewhite.png';
                 }
             })
             semuaaudio3.forEach(a => {
                 if (a.play) {
-                    document.getElementsByClassName('pausepy')[2].src = 'imgtombol/pausewhite.png';
+                    document.getElementsByClassName('pausepy')[2].src = './imgtombol/pausewhite.png';
                 }
             })
             semuaaudio4.forEach(a => {
                 if (a.play) {
-                    document.getElementsByClassName('pausepy')[3].src = 'imgtombol/pausewhite.png';
+                    document.getElementsByClassName('pausepy')[3].src = './imgtombol/pausewhite.png';
                 }
             })
         }
@@ -124,36 +124,36 @@ function jalankanaudio() {
     }
     if (!kondisiaudio && audiotersimpan !== null) {
         audiotersimpan.play()
-        document.getElementsByClassName('gambartombolpause')[0].src = 'imgtombol/play.png';
-        pp2.src = 'imgtombol/play.png';
+        document.getElementsByClassName('gambartombolpause')[0].src = './imgtombol/play.png';
+        pp2.src = './imgtombol/play.png';
         semuaaudio1.forEach(a => {
             if (audiotersimpan === a) {
-                document.getElementsByClassName('pausepy')[0].src = 'imgtombol/playwhite.png';
+                document.getElementsByClassName('pausepy')[0].src = './imgtombol/playwhite.png';
             }
         })
         semuaaudio2.forEach(a => {
             if (audiotersimpan === a) {
-                document.getElementsByClassName('pausepy')[1].src = 'imgtombol/playwhite.png';
+                document.getElementsByClassName('pausepy')[1].src = './imgtombol/playwhite.png';
             }
         })
         semuaaudio3.forEach(a => {
             if (audiotersimpan === a) {
-                document.getElementsByClassName('pausepy')[2].src = 'imgtombol/playwhite.png';
+                document.getElementsByClassName('pausepy')[2].src = './imgtombol/playwhite.png';
             }
         })
         semuaaudio4.forEach(a => {
             if (audiotersimpan === a) {
-                document.getElementsByClassName('pausepy')[3].src = 'imgtombol/playwhite.png';
+                document.getElementsByClassName('pausepy')[3].src = './imgtombol/playwhite.png';
             }
         })
 
     }
     if (audiotersimpan == null) {
         semuaaudio[0].play()
-        pulg1[0].src = 'imgtombol/play2.png'
-        document.getElementsByClassName('gambartombolpause')[0].src = 'imgtombol/play.png';
-        pp2.src = 'imgtombol/play.png';
-        document.getElementsByClassName('pausepy')[0].src = 'imgtombol/playwhite.png';
+        pulg1[0].src = './imgtombol/play2.png'
+        document.getElementsByClassName('gambartombolpause')[0].src = './imgtombol/play.png';
+        pp2.src = './imgtombol/play.png';
+        document.getElementsByClassName('pausepy')[0].src = './imgtombol/playwhite.png';
     }
 }
 
@@ -169,40 +169,40 @@ let audi4 = document.querySelectorAll('.audio4')
 if (c === 1) {
     audi1.forEach(a => {
         if (a.play) {
-            document.getElementsByClassName('pausepy')[0].src = 'imgtombol/playwhite.png';
+            document.getElementsByClassName('pausepy')[0].src = './imgtombol/playwhite.png';
         }
         if (a.paused) {
-            document.getElementsByClassName('pausepy')[0].src = 'imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[0].src = './imgtombol/pausewhite.png';
         }
     })
 }
 if (c === 2) {
     audi2.forEach(a => {
         if (a.play) {
-            document.getElementsByClassName('pausepy')[1].src = 'imgtombol/playwhite.png';
+            document.getElementsByClassName('pausepy')[1].src = './imgtombol/playwhite.png';
         }
         if (a.paused) {
-            document.getElementsByClassName('pausepy')[1].src = 'imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[1].src = './imgtombol/pausewhite.png';
         }
     })
 }
 if (c === 3) {
     audi3.forEach(a => {
         if (a.play) {
-            document.getElementsByClassName('pausepy')[2].src = 'imgtombol/playwhite.png';
+            document.getElementsByClassName('pausepy')[2].src = './imgtombol/playwhite.png';
         }
         if (a.paused) {
-            document.getElementsByClassName('pausepy')[2].src = 'imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[2].src = './imgtombol/pausewhite.png';
         }
     })
 }
 if (c === 4) {
     audi4.forEach(a => {
         if (a.play) {
-            document.getElementsByClassName('pausepy')[3].src = 'imgtombol/playwhite.png';
+            document.getElementsByClassName('pausepy')[3].src = './imgtombol/playwhite.png';
         }
         if (a.paused) {
-            document.getElementsByClassName('pausepy')[3].src = 'imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[3].src = './imgtombol/pausewhite.png';
         }
     })
 }
@@ -222,25 +222,25 @@ function jalankanaudio1() {
         audio.pause()
         audio.currentTime = 0;
     })
-    pausepy2.src = 'imgtombol/pausewhite.png'
-    pausepy3.src = 'imgtombol/pausewhite.png'
-    pausepy4.src = 'imgtombol/pausewhite.png'
+    pausepy2.src = './imgtombol/pausewhite.png'
+    pausepy3.src = './imgtombol/pausewhite.png'
+    pausepy4.src = './imgtombol/pausewhite.png'
     semuaaudio.forEach(audio => {
         if (!audio.paused) {
             kondisiaudio = true;
             audiotersimpan = audio;
             audio.pause();
-            document.getElementsByClassName('gambartombolpause')[0].src = 'imgtombol/pause.png';
-            pp2.src = 'imgtombol/pause.png';
-            pausepy1.src = 'imgtombol/pausewhite.png'
+            document.getElementsByClassName('gambartombolpause')[0].src = './imgtombol/pause.png';
+            pp2.src = './imgtombol/pause.png';
+            pausepy1.src = './imgtombol/pausewhite.png'
         }
     })
     semuaaudio.forEach(audio => {
         if (!kondisiaudio && audiotersimpan !== audio) {
             semuaaudio[0].play()
-            document.getElementsByClassName('gambartombolpause')[0].src = 'imgtombol/play.png';
-            pp2.src = 'imgtombol/play.png';
-            pausepy1.src = 'imgtombol/playwhite.png'
+            document.getElementsByClassName('gambartombolpause')[0].src = './imgtombol/play.png';
+            pp2.src = './imgtombol/play.png';
+            pausepy1.src = './imgtombol/playwhite.png'
         }
     })
     semuaaudio.forEach(audio => {
@@ -254,16 +254,16 @@ function jalankanaudio1() {
                     }
                 })
             })
-            document.getElementsByClassName('gambartombolpause')[0].src = 'imgtombol/play.png';
-            pp2.src = 'imgtombol/play.png';
-            pausepy1.src = 'imgtombol/playwhite.png'
+            document.getElementsByClassName('gambartombolpause')[0].src = './imgtombol/play.png';
+            pp2.src = './imgtombol/play.png';
+            pausepy1.src = './imgtombol/playwhite.png'
         }
     })
     if (audiotersimpan === null) {
         semuaaudio[0].play()
-        document.getElementsByClassName('gambartombolpause')[0].src = 'imgtombol/play.png';
-        pp2.src = 'imgtombol/play.png';
-        pausepy1.src = 'imgtombol/playwhite.png'
+        document.getElementsByClassName('gambartombolpause')[0].src = './imgtombol/play.png';
+        pp2.src = './imgtombol/play.png';
+        pausepy1.src = './imgtombol/playwhite.png'
     }
 }
 function jalankanaudio2() {
@@ -281,25 +281,25 @@ function jalankanaudio2() {
         audio.pause()
         audio.currentTime = 0;
     })
-    pausepy1.src = 'imgtombol/pausewhite.png'
-    pausepy3.src = 'imgtombol/pausewhite.png'
-    pausepy4.src = 'imgtombol/pausewhite.png'
+    pausepy1.src = './imgtombol/pausewhite.png'
+    pausepy3.src = './imgtombol/pausewhite.png'
+    pausepy4.src = './imgtombol/pausewhite.png'
     semuaaudio.forEach(audio => {
         if (!audio.paused) {
             kondisiaudio = true
             audiotersimpan = audio
             audio.pause()
-            document.getElementsByClassName('gambartombolpause')[0].src = 'imgtombol/pause.png';
-            pp2.src = 'imgtombol/pause.png';
-            pausepy2.src = 'imgtombol/pausewhite.png'
+            document.getElementsByClassName('gambartombolpause')[0].src = './imgtombol/pause.png';
+            pp2.src = './imgtombol/pause.png';
+            pausepy2.src = './imgtombol/pausewhite.png'
         }
     })
     semuaaudio.forEach(audio => {
         if (!kondisiaudio && audiotersimpan !== audio) {
             semuaaudio[0].play()
-            document.getElementsByClassName('gambartombolpause')[0].src = 'imgtombol/play.png';
-            pp2.src = 'imgtombol/play.png';
-            pausepy2.src = 'imgtombol/playwhite.png'
+            document.getElementsByClassName('gambartombolpause')[0].src = './imgtombol/play.png';
+            pp2.src = './imgtombol/play.png';
+            pausepy2.src = './imgtombol/playwhite.png'
         }
     })
     semuaaudio.forEach(audio => {
@@ -313,15 +313,15 @@ function jalankanaudio2() {
                     }
                 })
             })
-            document.getElementsByClassName('gambartombolpause')[0].src = 'imgtombol/play.png';
-            pp2.src = 'imgtombol/play.png';
-            pausepy2.src = 'imgtombol/playwhite.png'
+            document.getElementsByClassName('gambartombolpause')[0].src = './imgtombol/play.png';
+            pp2.src = './imgtombol/play.png';
+            pausepy2.src = './imgtombol/playwhite.png'
         }
     })
 
     if (audiotersimpan == null) {
         semuaaudio[0].play()
-        pausepy2.src = 'imgtombol/playwhite.png'
+        pausepy2.src = './imgtombol/playwhite.png'
     }
 }
 function jalankanaudio3() {
@@ -339,25 +339,25 @@ function jalankanaudio3() {
         audio.pause()
         audio.currentTime = 0;
     })
-    pausepy1.src = 'imgtombol/pausewhite.png'
-    pausepy2.src = 'imgtombol/pausewhite.png'
-    pausepy4.src = 'imgtombol/pausewhite.png'
+    pausepy1.src = './imgtombol/pausewhite.png'
+    pausepy2.src = './imgtombol/pausewhite.png'
+    pausepy4.src = './imgtombol/pausewhite.png'
     semuaaudio.forEach(audio => {
         if (!audio.paused) {
             kondisiaudio = true
             audiotersimpan = audio
             audio.pause()
-            document.getElementsByClassName('gambartombolpause')[0].src = 'imgtombol/pause.png';
-            pp2.src = 'imgtombol/pause.png';
-            pausepy3.src = 'imgtombol/pausewhite.png'
+            document.getElementsByClassName('gambartombolpause')[0].src = './imgtombol/pause.png';
+            pp2.src = './imgtombol/pause.png';
+            pausepy3.src = './imgtombol/pausewhite.png'
         }
     })
     semuaaudio.forEach(audio => {
         if (!kondisiaudio && audiotersimpan !== audio) {
             semuaaudio[0].play()
-            document.getElementsByClassName('gambartombolpause')[0].src = 'imgtombol/play.png';
-            pp2.src = 'imgtombol/play.png';
-            pausepy3.src = 'imgtombol/playwhite.png'
+            document.getElementsByClassName('gambartombolpause')[0].src = './imgtombol/play.png';
+            pp2.src = './imgtombol/play.png';
+            pausepy3.src = './imgtombol/playwhite.png'
         }
     })
     semuaaudio.forEach(audio => {
@@ -371,15 +371,15 @@ function jalankanaudio3() {
                     }
                 })
             })
-            document.getElementsByClassName('gambartombolpause')[0].src = 'imgtombol/play.png';
-            pp2.src = 'imgtombol/play.png';
-            pausepy3.src = 'imgtombol/playwhite.png'
+            document.getElementsByClassName('gambartombolpause')[0].src = './imgtombol/play.png';
+            pp2.src = './imgtombol/play.png';
+            pausepy3.src = './imgtombol/playwhite.png'
         }
     })
 
     if (audiotersimpan == null) {
         semuaaudio[0].play()
-        pausepy3.src = 'imgtombol/playwhite.png'
+        pausepy3.src = './imgtombol/playwhite.png'
     }
 }
 function jalankanaudio4() {
@@ -397,25 +397,25 @@ function jalankanaudio4() {
         audio.pause()
         audio.currentTime = 0;
     })
-    pausepy1.src = 'imgtombol/pausewhite.png'
-    pausepy2.src = 'imgtombol/pausewhite.png'
-    pausepy3.src = 'imgtombol/pausewhite.png'
+    pausepy1.src = './imgtombol/pausewhite.png'
+    pausepy2.src = './imgtombol/pausewhite.png'
+    pausepy3.src = './imgtombol/pausewhite.png'
     semuaaudio.forEach(audio => {
         if (!audio.paused) {
             kondisiaudio = true
             audiotersimpan = audio
             audio.pause()
-            document.getElementsByClassName('gambartombolpause')[0].src = 'imgtombol/pause.png';
-            pp2.src = 'imgtombol/pause.png';
-            pausepy4.src = 'imgtombol/pausewhite.png'
+            document.getElementsByClassName('gambartombolpause')[0].src = './imgtombol/pause.png';
+            pp2.src = './imgtombol/pause.png';
+            pausepy4.src = './imgtombol/pausewhite.png'
         }
     })
     semuaaudio.forEach(audio => {
         if (!kondisiaudio && audiotersimpan !== audio) {
             semuaaudio[0].play()
-            document.getElementsByClassName('gambartombolpause')[0].src = 'imgtombol/play.png';
-            pp2.src = 'imgtombol/play.png';
-            pausepy4.src = 'imgtombol/playwhite.png'
+            document.getElementsByClassName('gambartombolpause')[0].src = './imgtombol/play.png';
+            pp2.src = './imgtombol/play.png';
+            pausepy4.src = './imgtombol/playwhite.png'
         }
     })
     semuaaudio.forEach(audio => {
@@ -429,15 +429,15 @@ function jalankanaudio4() {
                     }
                 })
             })
-            document.getElementsByClassName('gambartombolpause')[0].src = 'imgtombol/play.png';
-            pp2.src = 'imgtombol/play.png';
-            pausepy4.src = 'imgtombol/playwhite.png'
+            document.getElementsByClassName('gambartombolpause')[0].src = './imgtombol/play.png';
+            pp2.src = './imgtombol/play.png';
+            pausepy4.src = './imgtombol/playwhite.png'
         }
     })
 
     if (audiotersimpan == null) {
         semuaaudio[0].play()
-        pausepy4.src = 'imgtombol/playwhite.png'
+        pausepy4.src = './imgtombol/playwhite.png'
     }
 }
 let playlistdi = 0
@@ -451,28 +451,28 @@ let ply4 = []
 let pus4 = []
 for (let g = 0; g < 20; g++) {
     ply1[g] = function () {
-        pulg1[g].src = "/imgtombol/play2.png"
+        pulg1[g].src = "./imgtombol/play2.png"
     }
     pus1[g] = function () {
-        pulg1[g].src = "/imgtombol/pause2.png"
+        pulg1[g].src = "./imgtombol/pause2.png"
     }
     ply2[g] = function () {
-        pulg2[g].src = "/imgtombol/play2.png"
+        pulg2[g].src = "./imgtombol/play2.png"
     }
     pus2[g] = function () {
-        pulg2[g].src = "/imgtombol/pause2.png"
+        pulg2[g].src = "./imgtombol/pause2.png"
     }
     ply3[g] = function () {
-        pulg3[g].src = "/imgtombol/play2.png"
+        pulg3[g].src = "./imgtombol/play2.png"
     }
     pus3[g] = function () {
-        pulg3[g].src = "/imgtombol/pause2.png"
+        pulg3[g].src = "./imgtombol/pause2.png"
     }
     ply4[g] = function () {
-        pulg4[g].src = "/imgtombol/play2.png"
+        pulg4[g].src = "./imgtombol/play2.png"
     }
     pus4[g] = function () {
-        pulg4[g].src = "/imgtombol/pause2.png"
+        pulg4[g].src = "./imgtombol/pause2.png"
     }
 }
 let ps1 = document.getElementById('ps1')
@@ -570,10 +570,10 @@ function toggleAudio(index) {
                     a.pause();
                 }
             })
-            document.getElementsByClassName('pausepy')[0].src = 'imgtombol/playwhite.png';
-            document.getElementsByClassName('pausepy')[1].src = 'imgtombol/pausewhite.png';
-            document.getElementsByClassName('pausepy')[2].src = 'imgtombol/pausewhite.png';
-            document.getElementsByClassName('pausepy')[3].src = 'imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[0].src = './imgtombol/playwhite.png';
+            document.getElementsByClassName('pausepy')[1].src = './imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[2].src = './imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[3].src = './imgtombol/pausewhite.png';
         }
         if (playlistdi === 2) {
             dio2[index].play();
@@ -584,10 +584,10 @@ function toggleAudio(index) {
                     a.pause();
                 }
             })
-            document.getElementsByClassName('pausepy')[1].src = 'imgtombol/playwhite.png';
-            document.getElementsByClassName('pausepy')[0].src = 'imgtombol/pausewhite.png';
-            document.getElementsByClassName('pausepy')[2].src = 'imgtombol/pausewhite.png';
-            document.getElementsByClassName('pausepy')[3].src = 'imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[1].src = './imgtombol/playwhite.png';
+            document.getElementsByClassName('pausepy')[0].src = './imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[2].src = './imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[3].src = './imgtombol/pausewhite.png';
         }
         if (playlistdi === 3) {
             dio3[index].play();
@@ -599,10 +599,10 @@ function toggleAudio(index) {
                 }
 
             })
-            document.getElementsByClassName('pausepy')[2].src = 'imgtombol/playwhite.png';
-            document.getElementsByClassName('pausepy')[1].src = 'imgtombol/pausewhite.png';
-            document.getElementsByClassName('pausepy')[0].src = 'imgtombol/pausewhite.png';
-            document.getElementsByClassName('pausepy')[3].src = 'imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[2].src = './imgtombol/playwhite.png';
+            document.getElementsByClassName('pausepy')[1].src = './imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[0].src = './imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[3].src = './imgtombol/pausewhite.png';
         }
         if (playlistdi === 4) {
             dio4[index].play();
@@ -613,13 +613,13 @@ function toggleAudio(index) {
                     a.currentTime = 0;
                 }
             })
-            document.getElementsByClassName('pausepy')[3].src = 'imgtombol/playwhite.png';
-            document.getElementsByClassName('pausepy')[1].src = 'imgtombol/pausewhite.png';
-            document.getElementsByClassName('pausepy')[2].src = 'imgtombol/pausewhite.png';
-            document.getElementsByClassName('pausepy')[0].src = 'imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[3].src = './imgtombol/playwhite.png';
+            document.getElementsByClassName('pausepy')[1].src = './imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[2].src = './imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[0].src = './imgtombol/pausewhite.png';
         }
-        document.getElementsByClassName('gambartombolpause')[0].src = 'imgtombol/play.png';
-        pp2.src = 'imgtombol/play.png';
+        document.getElementsByClassName('gambartombolpause')[0].src = './imgtombol/play.png';
+        pp2.src = './imgtombol/play.png';
         pause = false;
         audiodi = index + 1;
     } else if (audiodi !== index + 1) {
@@ -632,10 +632,10 @@ function toggleAudio(index) {
                     a.pause()
                 }
             })
-            document.getElementsByClassName('pausepy')[0].src = 'imgtombol/playwhite.png';
-            document.getElementsByClassName('pausepy')[1].src = 'imgtombol/pausewhite.png';
-            document.getElementsByClassName('pausepy')[2].src = 'imgtombol/pausewhite.png';
-            document.getElementsByClassName('pausepy')[3].src = 'imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[0].src = './imgtombol/playwhite.png';
+            document.getElementsByClassName('pausepy')[1].src = './imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[2].src = './imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[3].src = './imgtombol/pausewhite.png';
         }
         if (playlistdi === 2) {
             dio2[index].play();
@@ -646,10 +646,10 @@ function toggleAudio(index) {
                     a.pause()
                 }
             })
-            document.getElementsByClassName('pausepy')[1].src = 'imgtombol/playwhite.png';
-            document.getElementsByClassName('pausepy')[0].src = 'imgtombol/pausewhite.png';
-            document.getElementsByClassName('pausepy')[2].src = 'imgtombol/pausewhite.png';
-            document.getElementsByClassName('pausepy')[3].src = 'imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[1].src = './imgtombol/playwhite.png';
+            document.getElementsByClassName('pausepy')[0].src = './imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[2].src = './imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[3].src = './imgtombol/pausewhite.png';
         }
         if (playlistdi === 3) {
             dio3[index].play();
@@ -660,10 +660,10 @@ function toggleAudio(index) {
                     a.pause()
                 }
             })
-            document.getElementsByClassName('pausepy')[2].src = 'imgtombol/playwhite.png';
-            document.getElementsByClassName('pausepy')[0].src = 'imgtombol/pausewhite.png';
-            document.getElementsByClassName('pausepy')[1].src = 'imgtombol/pausewhite.png';
-            document.getElementsByClassName('pausepy')[3].src = 'imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[2].src = './imgtombol/playwhite.png';
+            document.getElementsByClassName('pausepy')[0].src = './imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[1].src = './imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[3].src = './imgtombol/pausewhite.png';
         }
         if (playlistdi === 4) {
             dio4[index].play();
@@ -674,34 +674,34 @@ function toggleAudio(index) {
                     a.pause()
                 }
             })
-            document.getElementsByClassName('pausepy')[3].src = 'imgtombol/playwhite.png';
-            document.getElementsByClassName('pausepy')[0].src = 'imgtombol/pausewhite.png';
-            document.getElementsByClassName('pausepy')[1].src = 'imgtombol/pausewhite.png';
-            document.getElementsByClassName('pausepy')[2].src = 'imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[3].src = './imgtombol/playwhite.png';
+            document.getElementsByClassName('pausepy')[0].src = './imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[1].src = './imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[2].src = './imgtombol/pausewhite.png';
         }
-        document.getElementsByClassName('gambartombolpause')[0].src = 'imgtombol/play.png';
-        pp2.src = 'imgtombol/play.png';
+        document.getElementsByClassName('gambartombolpause')[0].src = './imgtombol/play.png';
+        pp2.src = './imgtombol/play.png';
         pause = false;
         audiodi = index + 1;
     } else {
         if (playlistdi === 1) {
             dio[index].pause();
-            document.getElementsByClassName('pausepy')[0].src = 'imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[0].src = './imgtombol/pausewhite.png';
         }
         if (playlistdi === 2) {
             dio2[index].pause();
-            document.getElementsByClassName('pausepy')[1].src = 'imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[1].src = './imgtombol/pausewhite.png';
         }
         if (playlistdi === 3) {
             dio3[index].pause();
-            document.getElementsByClassName('pausepy')[2].src = 'imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[2].src = './imgtombol/pausewhite.png';
         }
         if (playlistdi === 4) {
             dio2[index].pause();
-            document.getElementsByClassName('pausepy')[3].src = 'imgtombol/pausewhite.png';
+            document.getElementsByClassName('pausepy')[3].src = './imgtombol/pausewhite.png';
         }
-        document.getElementsByClassName('gambartombolpause')[0].src = 'imgtombol/pause.png';
-        pp2.src = 'imgtombol/pause.png';
+        document.getElementsByClassName('gambartombolpause')[0].src = './imgtombol/pause.png';
+        pp2.src = './imgtombol/pause.png';
         pause = true;
     }
 }
@@ -1030,7 +1030,7 @@ let dpy44 = "";
 let namalagu = document.getElementById('namelagu')
 let subnamalagu = document.getElementById('subnamelagu')
 let namalagu2 = document.getElementById('namelagugede')
-let subnamalagu2 = document.getElementById('subnamelagugede')
+let subnamalagu2 = document.getElementById('subnamalagugede')
 audio0.forEach(a => {
     a.addEventListener('timeupdate', () => {
         for (let q = 0; q < 20; q++) {

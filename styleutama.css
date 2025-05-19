@@ -1,5 +1,5 @@
 body {
-    background-image: url(background/bgbesar.jpg);
+    background-image: url(./background/bgbesar.jpg);
     background-size: 100%;
     overflow: hidden;
 }
@@ -214,14 +214,14 @@ body {
 
 @media (min-width: 981px) and (max-width: 1080px) {
     body {
-        background-image: url(background/bgsedang.jpg);
+        background-image: url(./background/bgsedang.jpg);
     }
 }
 
 @media (hover:none),
 (max-width: 980px) {
     body {
-        background-image: url(background/bgkecil.jpg);
+        background-image: url(./background/bgkecil.jpg);
         background-size: 100%;
         position: fixed;
     }
@@ -836,14 +836,14 @@ body {
 
 @font-face {
     font-family: 'roboto';
-    src: url(/font/Roboto-Bold.ttf);
+    src: url(./font/Roboto-Bold.ttf);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'heavitas';
-    src: url(/font/Heavitas.ttf);
+    src: url(./font/Heavitas.ttf);
     font-weight: normal;
     font-style: normal;
 }

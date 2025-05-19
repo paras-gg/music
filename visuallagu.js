@@ -34,7 +34,7 @@ function skip() {
                     a.pause()
                     a.currentTime = 0
                 }
-                document.getElementById('ps1').src = 'imgtombol/playwhite.png';
+                document.getElementById('ps1').src = './imgtombol/playwhite.png';
                 gb1.src = 'imgtombol/play.png'
                 gb2.src = 'imgtombol/play.png'
                 d2.pause()
@@ -52,7 +52,7 @@ function skip() {
                     a.pause()
                     a.currentTime = 0
                 }
-                document.getElementById('ps2').src = 'imgtombol/playwhite.png';
+                document.getElementById('ps2').src = './imgtombol/playwhite.png';
                 gb1.src = 'imgtombol/play.png'
                 gb2.src = 'imgtombol/play.png'
                 d1.pause()
@@ -70,7 +70,7 @@ function skip() {
                     a.pause()
                     a.currentTime = 0
                 }
-                document.getElementById('ps3').src = 'imgtombol/playwhite.png';
+                document.getElementById('ps3').src = './imgtombol/playwhite.png';
                 gb1.src = 'imgtombol/play.png'
                 gb2.src = 'imgtombol/play.png'
                 d2.pause()
@@ -88,9 +88,9 @@ function skip() {
                     a.pause()
                     a.currentTime = 0
                 }
-                document.getElementById('ps4').src = 'imgtombol/playwhite.png';
-                gb1.src = 'imgtombol/play.png'
-                gb2.src = 'imgtombol/play.png'
+                document.getElementById('ps4').src = './imgtombol/playwhite.png';
+                gb1.src = './imgtombol/play.png'
+                gb2.src = './imgtombol/play.png'
                 d2.pause()
                 d3.pause()
                 d4.pause()
@@ -120,27 +120,27 @@ all.forEach(a => {
     })
 })
 let img11 = [
-    "/fotolagu/foto1py1.jpg", "/fotolagu/foto2py1.jpg", "/fotolagu/foto3py1.jpg", "/fotolagu/foto4py1.jpg",
-    "/fotolagu/foto5py1.jpg", "/fotolagu/foto6py1.jpg", "/fotolagu/foto7py1.jpg", "/fotolagu/foto8py1.jpg",
-    "/fotolagu/foto9py1.jpg", "/fotolagu/foto10py1.jpg", "/fotolagu/foto11py1.jpg", "/fotolagu/foto12py1.jpg",
-    "/fotolagu/foto13py1.jpg", "/fotolagu/foto14py1.jpg", "/fotolagu/foto15py1.jpg", "/fotolagu/foto16py1.jpg",
-    "/fotolagu/foto17py1.jpg", "/fotolagu/foto18py1.jpg", "/fotolagu/foto19py1.jpg", "/fotolagu/foto20py1.jpg"
+    "./fotolagu/foto1py1.jpg", "./fotolagu/foto2py1.jpg", "./fotolagu/foto3py1.jpg", "./fotolagu/foto4py1.jpg",
+    "./fotolagu/foto5py1.jpg", "./fotolagu/foto6py1.jpg", "./fotolagu/foto7py1.jpg", "./fotolagu/foto8py1.jpg",
+    "./fotolagu/foto9py1.jpg", "./fotolagu/foto10py1.jpg", "./fotolagu/foto11py1.jpg", "./fotolagu/foto12py1.jpg",
+    "./fotolagu/foto13py1.jpg", "./fotolagu/foto14py1.jpg", "./fotolagu/foto15py1.jpg", "./fotolagu/foto16py1.jpg",
+    "./fotolagu/foto17py1.jpg", "./fotolagu/foto18py1.jpg", "./fotolagu/foto19py1.jpg", "./fotolagu/foto20py1.jpg"
 ];
 let img22 = [
-    "/fotolagu/foto1py2.jpg", "/fotolagu/foto2py2.jpg", "/fotolagu/foto3py2.jpg", "/fotolagu/foto4py2.jpg",
-    "/fotolagu/foto5py2.jpg", "/fotolagu/foto6py2.jpg", "/fotolagu/foto7py2.jpg", "/fotolagu/foto8py2.jpg",
-    "/fotolagu/foto9py2.jpg", "/fotolagu/foto10py2.jpg", "/fotolagu/foto11py2.jpg", "/fotolagu/foto12py2.jpg",
-    "/fotolagu/foto13py2.jpg", "/fotolagu/foto14py2.jpg", "/fotolagu/foto15py2.jpg", "/fotolagu/foto16py2.jpg",
-    "/fotolagu/foto17py2.jpg", "/fotolagu/foto18py2.jpg", "/fotolagu/foto19py2.jpg", "/fotolagu/foto20py2.jpg"
+    "./fotolagu/foto1py2.jpg", "./fotolagu/foto2py2.jpg", "./fotolagu/foto3py2.jpg", "./fotolagu/foto4py2.jpg",
+    "./fotolagu/foto5py2.jpg", "./fotolagu/foto6py2.jpg", "./fotolagu/foto7py2.jpg", "./fotolagu/foto8py2.jpg",
+    "./fotolagu/foto9py2.jpg", "./fotolagu/foto10py2.jpg", "./fotolagu/foto11py2.jpg", "./fotolagu/foto12py2.jpg",
+    "./fotolagu/foto13py2.jpg", "./fotolagu/foto14py2.jpg", "./fotolagu/foto15py2.jpg", "./fotolagu/foto16py2.jpg",
+    "./fotolagu/foto17py2.jpg", "./fotolagu/foto18py2.jpg", "./fotolagu/foto19py2.jpg", "./fotolagu/foto20py2.jpg"
 ];
 let img33 = [
-    "/fotolagu/foto1py3.jpg", "/fotolagu/foto2py3.jpg", "/fotolagu/foto3py3.jpg", "/fotolagu/foto4py3.jpg",
-    "/fotolagu/foto5py3.jpg", "/fotolagu/foto6py3.jpg", "/fotolagu/foto7py3.jpg", "/fotolagu/foto8py3.jpg",
-    "/fotolagu/foto9py3.jpg", "/fotolagu/foto10py3.jpg", "/fotolagu/foto11py3.jpg", "/fotolagu/foto12py3.jpg",
-    "/fotolagu/foto13py3.jpg", "/fotolagu/foto14py3.jpg", "/fotolagu/foto15py3.jpg", "/fotolagu/foto16py3.jpg",
-    "/fotolagu/foto17py3.jpg", "/fotolagu/foto18py3.jpg", "/fotolagu/foto19py3.jpg", "/fotolagu/foto20py3.jpg"
+    "./fotolagu/foto1py3.jpg", "./fotolagu/foto2py3.jpg", "./fotolagu/foto3py3.jpg", "./fotolagu/foto4py3.jpg",
+    "./fotolagu/foto5py3.jpg", "./fotolagu/foto6py3.jpg", "./fotolagu/foto7py3.jpg", "./fotolagu/foto8py3.jpg",
+    "./fotolagu/foto9py3.jpg", "./fotolagu/foto10py3.jpg", "./fotolagu/foto11py3.jpg", "./fotolagu/foto12py3.jpg",
+    "./fotolagu/foto13py3.jpg", "./fotolagu/foto14py3.jpg", "./fotolagu/foto15py3.jpg", "./fotolagu/foto16py3.jpg",
+    "./fotolagu/foto17py3.jpg", "./fotolagu/foto18py3.jpg", "./fotolagu/foto19py3.jpg", "./fotolagu/foto20py3.jpg"
 ];
-let img44 = "/fotolagu/fotopy4.jpg"
+let img44 = "./fotolagu/fotopy4.jpg"
 
 let foto1 = document.getElementById('fotodefault')
 let foto2 = document.getElementById('fotodefaultkecil')
@@ -505,10 +505,10 @@ if (window.matchMedia("(hover:hover)").matches) {
             poto2.style.left = ''
             poto3.style.left = ''
             poto4.style.left = ''
-            poto1.src = '/fotoplaylist/foto1.jpg'
-            poto2.src = '/fotoplaylist/foto2.jpg'
-            poto3.src = '/fotoplaylist/foto3.jpg'
-            poto4.src = '/fotoplaylist/foto4.jpg'
+            poto1.src = './fotoplaylist/foto1.jpg'
+            poto2.src = './fotoplaylist/foto2.jpg'
+            poto3.src = './fotoplaylist/foto3.jpg'
+            poto4.src = './fotoplaylist/foto4.jpg'
             jud1.style.left = ''
             jud2.style.left = ''
             jud3.style.left = ''
@@ -532,11 +532,11 @@ let play1 = document.getElementsByClassName("gambartombolpause")[0]
 let play2 = document.getElementsByClassName("gambartombolpause")[1]
 allaudio.forEach(a => {
     a.addEventListener("play", () => {
-        play1.src = "/imgtombol/play.png"
-        play2.src = "/imgtombol/play.png"
+        play1.src = "./imgtombol/play.png"
+        play2.src = "./imgtombol/play.png"
     })
     a.addEventListener("pause", () => {
-        play1.src = "/imgtombol/pause.png"
-        play2.src = "/imgtombol/pause.png"
+        play1.src = "./imgtombol/pause.png"
+        play2.src = "./imgtombol/pause.png"
     })
 })

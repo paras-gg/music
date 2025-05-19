@@ -35,8 +35,8 @@ function skip() {
                     a.currentTime = 0
                 }
                 document.getElementById('ps1').src = './imgtombol/playwhite.png';
-                gb1.src = 'imgtombol/play.png'
-                gb2.src = 'imgtombol/play.png'
+                gb1.src = './imgtombol/play.png'
+                gb2.src = './imgtombol/play.png'
                 d2.pause()
                 d3.pause()
                 d4.pause()
@@ -53,8 +53,8 @@ function skip() {
                     a.currentTime = 0
                 }
                 document.getElementById('ps2').src = './imgtombol/playwhite.png';
-                gb1.src = 'imgtombol/play.png'
-                gb2.src = 'imgtombol/play.png'
+                gb1.src = './imgtombol/play.png'
+                gb2.src = './imgtombol/play.png'
                 d1.pause()
                 d3.pause()
                 d4.pause()
@@ -71,8 +71,8 @@ function skip() {
                     a.currentTime = 0
                 }
                 document.getElementById('ps3').src = './imgtombol/playwhite.png';
-                gb1.src = 'imgtombol/play.png'
-                gb2.src = 'imgtombol/play.png'
+                gb1.src = './imgtombol/play.png'
+                gb2.src = './imgtombol/play.png'
                 d2.pause()
                 d1.pause()
                 d4.pause()
